@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>COVID-19 Checker</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nearest Hospital</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h1>COVID-19 Checker</h1>
+      <form method="post" action="/check_covid">
+        <h3>Symptoms:</h3>
+        <div class="form-group">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Fever"
+              id="checkFever"
+            />
+            <label class="form-check-label" for="checkFever">Fever</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Cough"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough">Cough</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Shortness_of_breath"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough"
+              >Shortness_of_breath</label
+            >
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Fatigue"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough">Fatigue</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Sore_throat"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough">Sore_throat</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Headache"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough">Headache</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Body_aches"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough">Body_aches</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Loss_of_taste_smell"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough"
+              >Loss_of_taste_smell</label
+            >
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Nausea"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough">Nausea</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="symptoms"
+              value="Diarrhea"
+              id="checkCough"
+            />
+            <label class="form-check-label" for="checkCough">Diarrhea</label>
+          </div>
+          <!-- Add more checkboxes for other symptoms -->
+        </div>
+        <button type="submit" class="btn btn-primary">Check COVID-19</button>
+      </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
