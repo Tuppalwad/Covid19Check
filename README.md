@@ -1,6 +1,6 @@
 # Covid19Check
 
-Clone the repository by using https://github.com/Tuppalwad/Covid19Check 
+Clone the repository by using  (https://github.com/Tuppalwad/Covid19Check.git)
 install all below depenancy 
 1 pandas
   by command pip install pandas
